@@ -134,9 +134,9 @@ public class Miniprojekt1 {
 	}
 	public static double rechteck1VergleicheRechteck2(double l1,double b1,double l2,double b2)
 	{
-		double flaeche1 = l1 * l2;
-		double flaeche2 = b1 * b2;
-		return flaeche2/flaeche1;
+		double flaeche1 = l1 * b1;
+		double flaeche2 = l2 * b2;
+		return flaeche1/flaeche2;
 	}
 
 	public static void main(String[] s) {
@@ -144,13 +144,13 @@ public class Miniprojekt1 {
 				.println("Die Endnode von dem Student mit Uebung(70), Ausarbeitung(50) und Vortrag(70): (60 ware richtig): "
 						+ endNote(70, 50, 70));
 		System.out
-				.println("Tarif 1 kostet im Monat für 100 Gesprächsminuten: (44.99) "
+				.println("Tarif 1 kostet im Monat fÃ¼r 100 GesprÃ¤chsminuten: (44.99) "
 						+ tarif1(100));
 		System.out
-				.println("Tarif 2 kostet im Monat für 130 Gesprächsminuten: (44.95) "
+				.println("Tarif 2 kostet im Monat fÃ¼r 130 GesprÃ¤chsminuten: (44.95) "
 						+ tarif2(130));
 		System.out
-				.println("Tarif 3 kostet im Monat für 150 Gesprächsminuten: (43.95) "
+				.println("Tarif 3 kostet im Monat fÃ¼r 150 GesprÃ¤chsminuten: (43.95) "
 						+ tarif3(150));
 		System.out.println("Die Rueckgabe sollte true sein: "
 				+ tripel(20, 21, 29));
